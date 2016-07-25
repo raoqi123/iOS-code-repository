@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "MyViewController.h"
+#import "MyTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +24,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     
-    self.window.rootViewController = [[MyViewController alloc] init];
+    MyTableViewController *vc = [[MyTableViewController alloc] init];
+    UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = navc;
     
     return YES;
 }

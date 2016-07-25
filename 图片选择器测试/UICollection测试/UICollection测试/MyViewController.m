@@ -77,6 +77,7 @@
     }
     else if(pan.state == UIGestureRecognizerStateEnded)
     {
+        [self.collectionView updateInteractiveMovementTargetPosition:[pan locationInView:self.collectionView]];
         [self.collectionView endInteractiveMovement];
     }
     else if(pan.state == UIGestureRecognizerStateCancelled)
@@ -110,7 +111,7 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitle:@"选择图片" forState:UIControlStateNormal];
     [self.view addSubview:btn];
-    btn.frame = CGRectMake(0, 0, 100, 100);
+    btn.frame = CGRectMake(0, 64, 100, 36);
     btn.backgroundColor = [UIColor lightGrayColor];
     [btn addTarget:self action:@selector(didClickPhotoChooseBtn) forControlEvents:UIControlEventTouchUpInside];
 }
@@ -194,9 +195,23 @@
 
 -(void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
 {
-    NSLog(@"%s",__func__);
+    NSLog(@"%ld %ld",sourceIndexPath.row,destinationIndexPath.row);
+    
+//    UIImage *temp = self.photoList[sourceIndexPath.row];
+//    self.photoList[sourceIndexPath.row] = self.photoList[destinationIndexPath.row];
+//    self.photoList[destinationIndexPath.row] = temp;
+//    
+//    NSLog(@"%@",self.photoList);
+    
+    
+    //有个bug，当快速拖动图片交换时，会出现重复图片，目前还未找到原因
+    
     [self.photoList exchangeObjectAtIndex:sourceIndexPath.row withObjectAtIndex:destinationIndexPath.row];
     
+    //[collectionView reloadItemsAtIndexPaths:@[sourceIndexPath,destinationIndexPath]];
+    
+    
+    NSLog(@"%@",self.photoList);
     [collectionView reloadData];
 }
 
