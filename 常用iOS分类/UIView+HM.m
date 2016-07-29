@@ -42,7 +42,7 @@
     self.frame = frame;
 }
 
--(CGFloat)heigh
+-(CGFloat)height
 {
     return self.frame.size.height;
 }
