@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A141B0031D543C5D001599D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A141B0021D543C5D001599D3 /* main.m */; };
+		A141B0061D543C5D001599D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A141B0051D543C5D001599D3 /* AppDelegate.m */; };
+		A141B0091D543C5D001599D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A141B0081D543C5D001599D3 /* ViewController.m */; };
+		A141B00C1D543C5D001599D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A141B00A1D543C5D001599D3 /* Main.storyboard */; };
+		A141B00E1D543C5D001599D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A141B00D1D543C5D001599D3 /* Assets.xcassets */; };
+		A141B0111D543C5D001599D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A141B00F1D543C5D001599D3 /* LaunchScreen.storyboard */; };
+		A141B01C1D543C5D001599D3 /* ________iBeacons__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A141B01B1D543C5D001599D3 /* ________iBeacons__Tests.m */; };
+		A141B0271D543C5D001599D3 /* ________iBeacons__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A141B0261D543C5D001599D3 /* ________iBeacons__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A141B0181D543C5D001599D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A141AFF61D543C5D001599D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A141AFFD1D543C5D001599D3;
+			remoteInfo = "蓝牙扫描周边所有iBeacons测试";
+		};
+		A141B0231D543C5D001599D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A141AFF61D543C5D001599D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A141AFFD1D543C5D001599D3;
+			remoteInfo = "蓝牙扫描周边所有iBeacons测试";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A141AFFE1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙扫描周边所有iBeacons测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141B0021D543C5D001599D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A141B0041D543C5D001599D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A141B0051D543C5D001599D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A141B0071D543C5D001599D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A141B0081D543C5D001599D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A141B00B1D543C5D001599D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A141B00D1D543C5D001599D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A141B0101D543C5D001599D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A141B0121D543C5D001599D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A141B0171D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙扫描周边所有iBeacons测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141B01B1D543C5D001599D3 /* ________iBeacons__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________iBeacons__Tests.m"; sourceTree = "<group>"; };
+		A141B01D1D543C5D001599D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A141B0221D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙扫描周边所有iBeacons测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A141B0261D543C5D001599D3 /* ________iBeacons__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________iBeacons__UITests.m"; sourceTree = "<group>"; };
+		A141B0281D543C5D001599D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A141AFFB1D543C5D001599D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0141D543C5D001599D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B01F1D543C5D001599D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A141AFF51D543C5D001599D3 = {
+			isa = PBXGroup;
+			children = (
+				A141B0001D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试 */,
+				A141B01A1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试Tests */,
+				A141B0251D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试UITests */,
+				A141AFFF1D543C5D001599D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A141AFFF1D543C5D001599D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A141AFFE1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试.app */,
+				A141B0171D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试Tests.xctest */,
+				A141B0221D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A141B0001D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试 */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0041D543C5D001599D3 /* AppDelegate.h */,
+				A141B0051D543C5D001599D3 /* AppDelegate.m */,
+				A141B0071D543C5D001599D3 /* ViewController.h */,
+				A141B0081D543C5D001599D3 /* ViewController.m */,
+				A141B00A1D543C5D001599D3 /* Main.storyboard */,
+				A141B00D1D543C5D001599D3 /* Assets.xcassets */,
+				A141B00F1D543C5D001599D3 /* LaunchScreen.storyboard */,
+				A141B0121D543C5D001599D3 /* Info.plist */,
+				A141B0011D543C5D001599D3 /* Supporting Files */,
+			);
+			path = "蓝牙扫描周边所有iBeacons测试";
+			sourceTree = "<group>";
+		};
+		A141B0011D543C5D001599D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0021D543C5D001599D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A141B01A1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A141B01B1D543C5D001599D3 /* ________iBeacons__Tests.m */,
+				A141B01D1D543C5D001599D3 /* Info.plist */,
+			);
+			path = "蓝牙扫描周边所有iBeacons测试Tests";
+			sourceTree = "<group>";
+		};
+		A141B0251D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A141B0261D543C5D001599D3 /* ________iBeacons__UITests.m */,
+				A141B0281D543C5D001599D3 /* Info.plist */,
+			);
+			path = "蓝牙扫描周边所有iBeacons测试UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A141AFFD1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141B02B1D543C5D001599D3 /* Build configuration list for PBXNativeTarget "蓝牙扫描周边所有iBeacons测试" */;
+			buildPhases = (
+				A141AFFA1D543C5D001599D3 /* Sources */,
+				A141AFFB1D543C5D001599D3 /* Frameworks */,
+				A141AFFC1D543C5D001599D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "蓝牙扫描周边所有iBeacons测试";
+			productName = "蓝牙扫描周边所有iBeacons测试";
+			productReference = A141AFFE1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A141B0161D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141B02E1D543C5D001599D3 /* Build configuration list for PBXNativeTarget "蓝牙扫描周边所有iBeacons测试Tests" */;
+			buildPhases = (
+				A141B0131D543C5D001599D3 /* Sources */,
+				A141B0141D543C5D001599D3 /* Frameworks */,
+				A141B0151D543C5D001599D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A141B0191D543C5D001599D3 /* PBXTargetDependency */,
+			);
+			name = "蓝牙扫描周边所有iBeacons测试Tests";
+			productName = "蓝牙扫描周边所有iBeacons测试Tests";
+			productReference = A141B0171D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A141B0211D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141B0311D543C5D001599D3 /* Build configuration list for PBXNativeTarget "蓝牙扫描周边所有iBeacons测试UITests" */;
+			buildPhases = (
+				A141B01E1D543C5D001599D3 /* Sources */,
+				A141B01F1D543C5D001599D3 /* Frameworks */,
+				A141B0201D543C5D001599D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A141B0241D543C5D001599D3 /* PBXTargetDependency */,
+			);
+			name = "蓝牙扫描周边所有iBeacons测试UITests";
+			productName = "蓝牙扫描周边所有iBeacons测试UITests";
+			productReference = A141B0221D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A141AFF61D543C5D001599D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xxx;
+				TargetAttributes = {
+					A141AFFD1D543C5D001599D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L4T23V4CVR;
+					};
+					A141B0161D543C5D001599D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A141AFFD1D543C5D001599D3;
+					};
+					A141B0211D543C5D001599D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A141AFFD1D543C5D001599D3;
+					};
+				};
+			};
+			buildConfigurationList = A141AFF91D543C5D001599D3 /* Build configuration list for PBXProject "蓝牙扫描周边所有iBeacons测试" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A141AFF51D543C5D001599D3;
+			productRefGroup = A141AFFF1D543C5D001599D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A141AFFD1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试 */,
+				A141B0161D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试Tests */,
+				A141B0211D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A141AFFC1D543C5D001599D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141B0111D543C5D001599D3 /* LaunchScreen.storyboard in Resources */,
+				A141B00E1D543C5D001599D3 /* Assets.xcassets in Resources */,
+				A141B00C1D543C5D001599D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0151D543C5D001599D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0201D543C5D001599D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A141AFFA1D543C5D001599D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141B0091D543C5D001599D3 /* ViewController.m in Sources */,
+				A141B0061D543C5D001599D3 /* AppDelegate.m in Sources */,
+				A141B0031D543C5D001599D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B0131D543C5D001599D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141B01C1D543C5D001599D3 /* ________iBeacons__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A141B01E1D543C5D001599D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141B0271D543C5D001599D3 /* ________iBeacons__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A141B0191D543C5D001599D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A141AFFD1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试 */;
+			targetProxy = A141B0181D543C5D001599D3 /* PBXContainerItemProxy */;
+		};
+		A141B0241D543C5D001599D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A141AFFD1D543C5D001599D3 /* 蓝牙扫描周边所有iBeacons测试 */;
+			targetProxy = A141B0231D543C5D001599D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A141B00A1D543C5D001599D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A141B00B1D543C5D001599D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A141B00F1D543C5D001599D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A141B0101D543C5D001599D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A141B0291D543C5D001599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A141B02A1D543C5D001599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A141B02C1D543C5D001599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "蓝牙扫描周边所有iBeacons测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raoqi.iBeacons.forAlliBeacons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A141B02D1D543C5D001599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "蓝牙扫描周边所有iBeacons测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = raoqi.iBeacons.forAlliBeacons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A141B02F1D543C5D001599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "蓝牙扫描周边所有iBeacons测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoqi.--------iBeacons--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙扫描周边所有iBeacons测试.app/蓝牙扫描周边所有iBeacons测试";
+			};
+			name = Debug;
+		};
+		A141B0301D543C5D001599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "蓝牙扫描周边所有iBeacons测试Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoqi.--------iBeacons--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙扫描周边所有iBeacons测试.app/蓝牙扫描周边所有iBeacons测试";
+			};
+			name = Release;
+		};
+		A141B0321D543C5D001599D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "蓝牙扫描周边所有iBeacons测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoqi.--------iBeacons--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "蓝牙扫描周边所有iBeacons测试";
+			};
+			name = Debug;
+		};
+		A141B0331D543C5D001599D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "蓝牙扫描周边所有iBeacons测试UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "raoqi.--------iBeacons--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "蓝牙扫描周边所有iBeacons测试";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A141AFF91D543C5D001599D3 /* Build configuration list for PBXProject "蓝牙扫描周边所有iBeacons测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B0291D543C5D001599D3 /* Debug */,
+				A141B02A1D543C5D001599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A141B02B1D543C5D001599D3 /* Build configuration list for PBXNativeTarget "蓝牙扫描周边所有iBeacons测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B02C1D543C5D001599D3 /* Debug */,
+				A141B02D1D543C5D001599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A141B02E1D543C5D001599D3 /* Build configuration list for PBXNativeTarget "蓝牙扫描周边所有iBeacons测试Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B02F1D543C5D001599D3 /* Debug */,
+				A141B0301D543C5D001599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A141B0311D543C5D001599D3 /* Build configuration list for PBXNativeTarget "蓝牙扫描周边所有iBeacons测试UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A141B0321D543C5D001599D3 /* Debug */,
+				A141B0331D543C5D001599D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A141AFF61D543C5D001599D3 /* Project object */;
+}
